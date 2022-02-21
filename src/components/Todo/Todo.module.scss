@@ -1,0 +1,33 @@
+.todo {
+  background-color: #d1631f;
+  margin-bottom: 0.5rem;
+  border: 2px #000 dashed;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  cursor: pointer;
+
+  .todoName {
+    flex-grow: 1;
+    p {
+      color: #fff;
+      font-size: 16px;
+      text-align: center;
+      margin: 0;
+
+      &.checked {
+        color: rgb(17, 17, 17) !important;
+        text-decoration: line-through;
+      }
+    }
+    
+  }
+
+  .todoControl {
+      button {
+          background-color: transparent;
+          border: none;
+      }
+  }
+}

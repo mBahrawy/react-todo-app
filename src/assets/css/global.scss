@@ -1,0 +1,13 @@
+.main-container {
+  padding-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    text-align: center;
+    margin: 2rem 0;
+    color: #000;
+    font-weight: bold;
+  }
+}
